@@ -45,8 +45,10 @@
             </div>
           </div>
           <!-- end of flex-inner -->
-          <h1 class="hours">32hrs</h1>
-          <p class="hours-text report-text">Last Week - 36hrs</p>
+          <h1 class="hours" id="work-hours">32hrs</h1>
+          <p class="hours-text report-text">
+            Last Week - <span id="previous-work-hours">36</span>hrs
+          </p>
         </div>
       </div>
       <!-- end of work-container -->
@@ -65,8 +67,10 @@
             </div>
           </div>
           <!-- end of flex-inner -->
-          <h1 class="hours">10hrs</h1>
-          <p class="hours-text report-text">Last Week - 8hrs</p>
+          <h1 class="hours" id="play-current-hour">10hrs</h1>
+          <p class="hours-text report-text">
+            Last Week - <span id="play-previous-hours">8</span>hrs
+          </p>
         </div>
       </div>
       <!-- end of play container -->
@@ -85,8 +89,10 @@
             </div>
           </div>
           <!-- end of flex-inner -->
-          <h1 class="hours">4hrs</h1>
-          <p class="hours-text report-text">Last Week - 7hrs</p>
+          <h1 class="hours" id="study-current-hour">4hrs</h1>
+          <p class="hours-text report-text">
+            Last Week - <span id="previous-play-hours">7</span>hrs
+          </p>
         </div>
       </div>
       <!-- end of study container -->
@@ -105,8 +111,10 @@
             </div>
           </div>
           <!-- end of flex-inner -->
-          <h1 class="hours">4hrs</h1>
-          <p class="hours-text report-text">Last Week - 5hrs</p>
+          <h1 class="hours" id="exercise-current-hour">4hrs</h1>
+          <p class="hours-text report-text">
+            Last Week - <span id="exercise-previous">5</span>hrs
+          </p>
         </div>
       </div>
       <!-- end of exericise -->
@@ -125,8 +133,8 @@
             </div>
           </div>
           <!-- end of flex-inner -->
-          <h1 class="hours">5hrs</h1>
-          <p class="hours-text report-text">Last Week - 10hrs</p>
+          <h1 class="hours" id="current-hour-social">5hrs</h1>
+          <p class="hours-text report-text">Last Week - <span>5</span>hrs</p>
         </div>
       </div>
       <!-- end of social container -->
@@ -145,10 +153,13 @@
             </div>
           </div>
           <!-- end of flex-inner -->
-          <h1 class="hours">4hrs</h1>
-          <p class="hours-text report-text">Last Week - 2hrs</p>
+          <h1 class="hours" id="self-care-current">4hrs</h1>
+          <p class="hours-text report-text">
+            Last Week - <span id="self-care-previous">2</span>hrs
+          </p>
         </div>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
