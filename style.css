@@ -2,14 +2,15 @@ body {
   font-family: "Rubik", sans-serif;
   background-color: hsl(226, 43%, 10%);
   color: white;
+  user-select: none;
 }
 .container {
-  max-width: 1440px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
   overflow: hidden;
   padding: 10px;
@@ -51,12 +52,14 @@ h1 {
   padding-left: 0;
   padding-top: 20px;
   background-color: #1e204c;
-  margin-top: 0;
+  margin-top: 20px;
   padding: 10px;
   height: 120px;
+  font-size: 18px;
 }
 li {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  cursor: pointer;
 }
 
 .flex-inner {
