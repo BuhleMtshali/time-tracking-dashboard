@@ -9,7 +9,7 @@ body {
   margin-right: auto;
 }
 .profile-container {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   background-color: #1e204c;
 }
 .inner-profile {
@@ -39,4 +39,24 @@ h1 {
 }
 li {
   padding-bottom: 10px;
+}
+.work-container {
+  background-color: #1e204c;
+}
+.flex-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.peak-img {
+  background-color: hsl(15, 100%, 70%);
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.inner-work {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #1e204c;
 }
