@@ -3,6 +3,9 @@ body {
   background-color: hsl(226, 43%, 10%);
   color: white;
 }
+.container {
+  max-width: 1440px;
+}
 .profile-container {
   background-color: hsl(246, 80%, 60%);
 }
@@ -12,3 +15,19 @@ body {
   border-radius: 50%;
   border: 3px solid white;
 }
+.weekly-container {
+  background-color: hsl(235, 46%, 20%);
+}
+.daily,
+.weekly,
+.monthly {
+  cursor: pointer;
+}
+.top-text {
+  display: flex;
+  justify-content: space-between;
+}
+/* .top-text img { */
+width: 20px;
+height: 20px;
+/* } */
