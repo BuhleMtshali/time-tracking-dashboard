@@ -23,7 +23,6 @@ body {
   background-color: hsl(246, 80%, 60%);
   padding: 10px;
   border-radius: 10px;
-  height: 300px;
 }
 .name {
   font-weight: 400;
