@@ -54,7 +54,31 @@ li {
   justify-content: flex-end;
   position: relative;
 }
-
+.peak-img-two {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #56c2e5;
+}
+.peak-img-three {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(348, 100%, 68%);
+}
+.peak-img-four {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(145, 58%, 55%);
+}
+.peak-img-five {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(264, 64%, 52%);
+}
+.peak-img-six {
+  display: flex;
+  justify-content: flex-end;
+  background-color: hsl(43, 84%, 65%);
+}
 .inner-work {
   padding: 10px;
   border-radius: 12px;
