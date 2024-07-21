@@ -1,3 +1,14 @@
 body {
   font-family: "Rubik", sans-serif;
+  background-color: hsl(226, 43%, 10%);
+  color: white;
+}
+.profile-container {
+  background-color: hsl(246, 80%, 60%);
+}
+.profile-container img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid white;
 }
