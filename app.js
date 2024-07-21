@@ -44,4 +44,32 @@ function showDailyResults() {
 
 // end of dailyfunction
 weeklyButton.addEventListener("click", showWeeklyResults);
+function showWeeklyResults() {
+  let workCurrentWeek = 4;
+  let pastHourWeek = 7;
+  let PlayCurrentWeek = 10;
+  let playPastWeek = 8;
+  let currentStudyWeek = 4;
+  let pastStudyWeek = 7;
+  let currentExerciseWeek = 4;
+  let previousExerciseWeek = 5;
+  let currentSocialWeek = 5;
+  let previousSocialWeek = 10;
+  let currentSelfCareWeek = 2;
+  let previousSelfCareWeek = 2;
+  currentWorkHour.innerText = workCurrentWeek + "hrs";
+  previousWorkHour.innerText = pastHourWeek;
+  playCurrentHour.innerText = PlayCurrentWeek + "hrs";
+  playPreviousHour.innerText = playPastWeek;
+  studyCurrentHour.innerText = currentStudyWeek + "hrs";
+  studyPreviousHour.innerText = pastStudyWeek;
+  exerciseCurrentHour.innerText = currentExerciseWeek + "hr";
+  exercisePreviousHour.innerText = previousExerciseWeek;
+  socialCurrentHour.innerText = currentSocialWeek + "hr";
+  socialPreviousHour.innerText = previousSocialWeek;
+  selfCareCurrentHour.innerText = currentSelfCareWeek + "hr";
+  selfCarePreviousHour.innerText = previousSelfCareWeek;
+}
+
+// end of weeklyFunction
 monthButton.addEventListener("click", showMonthlyResults);
