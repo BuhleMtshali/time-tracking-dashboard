@@ -1,6 +1,6 @@
 let dailyButton = document.getElementById("daily-button");
 let weeklyButton = document.getElementById("weekly-button");
-let monthButton = document.getElementById("monthlyButton");
+let monthButton = document.getElementById("monthly-button");
 let currentWorkHour = document.getElementById("work-hours");
 let previousWorkHour = document.getElementById("previous-work-hours");
 let playCurrentHour = document.getElementById("play-current-hour");
@@ -73,3 +73,29 @@ function showWeeklyResults() {
 
 // end of weeklyFunction
 monthButton.addEventListener("click", showMonthlyResults);
+function showMonthlyResults() {
+  let workCurrentMonth = 103;
+  let pastHourMonth = 128;
+  let PlayCurrentMonth = 23;
+  let playPastMonth = 29;
+  let currentStudyMonth = 13;
+  let pastStudyMonth = 19;
+  let currentExerciseMonth = 11;
+  let previousExerciseMonth = 18;
+  let currentSocialMonth = 21;
+  let previousSocialMonth = 23;
+  let currentSelfCareMonth = 7;
+  let previousSelfCareMonth = 11;
+  currentWorkHour.innerText = workCurrentMonth + "hrs";
+  previousWorkHour.innerText = pastHourMonth;
+  playCurrentHour.innerText = PlayCurrentMonth + "hrs";
+  playPreviousHour.innerText = playPastMonth;
+  studyCurrentHour.innerText = currentStudyMonth + "hrs";
+  studyPreviousHour.innerText = pastStudyMonth;
+  exerciseCurrentHour.innerText = currentExerciseMonth + "hr";
+  exercisePreviousHour.innerText = previousExerciseMonth;
+  socialCurrentHour.innerText = currentSocialMonth + "hr";
+  socialPreviousHour.innerText = previousSocialMonth;
+  selfCareCurrentHour.innerText = currentSelfCareMonth + "hr";
+  selfCarePreviousHour.innerText = previousSelfCareMonth;
+}
