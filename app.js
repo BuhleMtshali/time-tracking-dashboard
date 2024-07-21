@@ -15,5 +15,33 @@ let selfCareCurrentHour = document.getElementById("self-care-current");
 let selfCarePreviousHour = document.getElementById("self-care-previous");
 
 dailyButton.addEventListener("click", showDailyResults);
+function showDailyResults() {
+  let workCurrentDay = 5;
+  let pastHourDay = 7;
+  let PlayCurrentDay = 1;
+  let playPastDay = 2;
+  let currentStudy = 0;
+  let pastStudy = 1;
+  let currentExercise = 1;
+  let previousExercise = 1;
+  let currentSocial = 1;
+  let previousSocial = 3;
+  let currentSelfCare = 0;
+  let previousSelfCare = 1;
+  currentWorkHour.innerText = workCurrentDay + "hrs";
+  previousWorkHour.innerText = pastHourDay;
+  playCurrentHour.innerText = PlayCurrentDay + "hrs";
+  playPreviousHour.innerText = playPastDay;
+  studyCurrentHour.innerText = currentStudy + "hrs";
+  studyPreviousHour.innerText = pastStudy;
+  exerciseCurrentHour.innerText = currentExercise + "hr";
+  exercisePreviousHour.innerText = previousExercise;
+  socialCurrentHour.innerText = currentSocial + "hr";
+  socialPreviousHour.innerText = previousSocial;
+  selfCareCurrentHour.innerText = currentSelfCare + "hr";
+  selfCarePreviousHour.innerText = previousSelfCare;
+}
+
+// end of dailyfunction
 weeklyButton.addEventListener("click", showWeeklyResults);
 monthButton.addEventListener("click", showMonthlyResults);
