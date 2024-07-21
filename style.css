@@ -8,6 +8,8 @@ body {
 }
 .profile-container {
   background-color: hsl(246, 80%, 60%);
+  margin-bottom: 60px;
+  padding: 10px;
 }
 .profile-container img {
   width: 60px;
@@ -16,18 +18,9 @@ body {
   border: 3px solid white;
 }
 .weekly-container {
-  background-color: hsl(235, 46%, 20%);
+  list-style-type: none;
+  padding-left: 0;
 }
-.daily,
-.weekly,
-.monthly {
-  cursor: pointer;
+li {
+  padding-bottom: 10px;
 }
-.top-text {
-  display: flex;
-  justify-content: space-between;
-}
-/* .top-text img { */
-width: 20px;
-height: 20px;
-/* } */
